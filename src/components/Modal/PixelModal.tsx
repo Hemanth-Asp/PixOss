@@ -23,10 +23,6 @@ function PixelModal(prop: ExtendedGridItem) {
       transform: 'translate(-50%, -50%)',
     },
   };
-  useEffect(() => {
-    setIsOpen(open);
-  }, [open]);
-
   const [modalIsOpen, setIsOpen] = useState(open);
 
   function closeModal() {
